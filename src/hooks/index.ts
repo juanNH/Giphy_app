@@ -1,2 +1,2 @@
-export * from './useGifts';
+export * from './useGifs';
 export * from './useStickers';

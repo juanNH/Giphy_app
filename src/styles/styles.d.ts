@@ -2,7 +2,11 @@ import "styled-components";
 
 export interface GlobalConfigurationsProps {
   screenSize: {
-    small: string;
+    xs: string;
+    sm: string;
+    md: string;
+    lg: string;
+    xl: string;
   };
 }
 
@@ -16,6 +20,10 @@ declare module "styled-components" {
       background: string;
       white: string;
       text: string;
+      green: {
+        main:string;
+        light:string;
+      }
     };
   }
 }

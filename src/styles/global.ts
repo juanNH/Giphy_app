@@ -7,7 +7,7 @@ export default createGlobalStyle`
         box-sizing:border-box;
     }
     body {
-        background-color: ${(props)=> props.theme.colors.background};
+        background-color: '${(props)=> props.theme.colors.background}';
         font-size: 14px;
         color:${(props)=>props.theme.colors.text};
         font-family: sans-serif;

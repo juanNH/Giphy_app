@@ -1,14 +1,21 @@
 import { globalConfigurations } from "./globalConfigurations";
-import { DefaultTheme } from 'styled-components';
+import { DefaultTheme } from "styled-components";
 const lightConfiguration = {
   title: "light",
   colors: {
-    primary:"#1FAB89",  //"#062743",
+    primary: "#1FAB89", //"#062743",
     secondary: "#62D2A2", // "#113A5D",
     third: "#9DF3C4", // "#C4FFDD",
     background: "D7FBE8",
     white: "#F9F9F9",
     text: "#000000",
+    green: {
+      main: "rgb(51,255,0,1)",
+      light: "rgb(51,255,0,0.6)",
+    },
   },
 };
-export const light:DefaultTheme = Object.assign(lightConfiguration, globalConfigurations);
+export const light: DefaultTheme = Object.assign(
+  lightConfiguration,
+  globalConfigurations
+);
