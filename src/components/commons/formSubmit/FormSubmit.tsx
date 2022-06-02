@@ -8,6 +8,7 @@ export const InputSearch = styled.input`
   padding: 8px;
   border: 2px solid ${({ theme }) => theme.colors.green.main};
   border-radius: 18px;
+  cursor: pointer;
   :focus,
   :active{
     border: 2px solid ${({ theme }) => theme.colors.green.light};

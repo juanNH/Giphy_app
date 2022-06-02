@@ -1,5 +1,5 @@
 import { ChangeEvent, useState } from "react";
-import { FormSubmit, Gif, InputText } from "../../components/commons";
+import { FormSubmit, Gif, InputText, Title } from "../../components/commons";
 import { useGifs } from "../../hooks/";
 import { GeneralGifsAddaptedInterface } from "../../models/gifs/addaptedGeneralGifs";
 import { FormSection, GifPage, GridContainer, GridItem } from "./gifsPageStyles";
@@ -14,7 +14,7 @@ export const GifsPage = () => {
 
   return (
     <GifPage>
-      <h1 style={{color:"red"}}>GifPage</h1>
+      <Title>GifPage</Title>
       <FormSection
         onSubmit={(e) => {
           e.preventDefault();

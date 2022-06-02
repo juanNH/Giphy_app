@@ -21,9 +21,9 @@ export const GridContainer = styled.div`
   }
 `;
 
-export const GridItem = styled.div``;
+export const StickerItem = styled.div``;
 
-export const GifPage = styled.div`
+export const StickerPage = styled.div`
   background-color: rgba(0, 0, 0, 1);
   display: flex;
   flex-direction: column;
